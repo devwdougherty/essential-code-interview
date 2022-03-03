@@ -1,4 +1,4 @@
-public class MS {
+public class Minesweeper {
     public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.
         int[][] bombs1 = {{0, 2}, {2, 0}};
@@ -32,9 +32,9 @@ public class MS {
             for(int i = rowIndex - 1; i < rowIndex + 2; i++) {
                 for (int j = colIndex - 1; j < colIndex + 2; j++) {
                     if (0 <= i && i < numRows &&
-                            0 <= j && j < numCols &&
-                            field[i][j] != -1) {
-                        field[i][j] += 1;
+                        0 <= j && j < numCols &&
+                        field[i][j] != -1) {
+                            field[i][j] += 1;
                     }
                 }
             }

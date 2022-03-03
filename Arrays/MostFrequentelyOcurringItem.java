@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class MF {
+public class MostFrequentelyOcurringItem {
     public static void main(String[] args) {
         // NOTE: The following input values are used for testing your solution.
 
@@ -18,8 +18,11 @@ public class MF {
 
     // Implement your solution below.
     public static Integer mostFreqent(int[] givenArray) {
-        Integer maxCount = -1; Integer maxItem = null;
+        Integer maxCount = -1;
+        Integer maxItem = null;
+
         HashMap<Integer, Integer> count = new HashMap<Integer, Integer>();
+
         for (int i : givenArray) {
             if (count.containsKey(i)) {
                 Integer newVal = count.get(i) + 1;

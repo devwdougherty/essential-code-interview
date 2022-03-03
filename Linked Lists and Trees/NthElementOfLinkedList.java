@@ -1,5 +1,7 @@
-public class Nth {
-    public static void main(String[] args) {
+import javax.xml.soap.Node;
+
+public class NthElementOfLinkedList {
+    /*public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.
         Node current = new Node(1, null);
         for (int i = 2; i < 8; i++) {
@@ -55,5 +57,5 @@ public class Nth {
         }
         sb.append("(null)");
         return sb.toString();
-    }
+    }*/
  }

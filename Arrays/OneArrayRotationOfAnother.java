@@ -1,4 +1,4 @@
-public class IR {
+public class OneArrayRotationOfAnother {
     public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.
         int[] array1 = {1, 2, 3, 4, 5, 6, 7};
@@ -30,6 +30,10 @@ public class IR {
         if (keyLoc == -1) return false;
         for (int i = 0; i < array1.length; i++) {
             int j = (keyLoc + i) % array1.length;
+            // int j = (4 + 0) % 7 = 4
+            // int j = (4 + 1) % 7 = 5
+            // int j = (4 + 2) % 7 = 6
+            // int j = (4 + 3) % 7 = 0
             if (array1[i] != array2[j]) return false;
         }
         return true;

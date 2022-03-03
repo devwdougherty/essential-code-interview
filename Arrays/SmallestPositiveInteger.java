@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /* PROBLEM
 
 This is a demo task.
@@ -21,7 +24,7 @@ each element of array A is an integer within the range [−1,000,000..1,000,000]
 Copyright 2009–2022 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
 
 */
-public class DemoApplication {
+public class SmallestPositiveInteger {
 
 	public static void main(String[] args) {
 		//SpringApplication.run(DemoApplication.class, args);

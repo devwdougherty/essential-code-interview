@@ -1,6 +1,6 @@
 import java.util.ArrayDeque;
 
-public class MS2 {
+public class ExpandMinesweeper {
     public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.
         int[][] field1 = {{0, 0, 0, 0, 0},

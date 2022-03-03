@@ -1,4 +1,4 @@
-public class R2InPlace {
+public class Rotating2DArrayInPlace {
     public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.
         int a1[][] = {{1, 2, 3},
@@ -32,7 +32,8 @@ public class R2InPlace {
                 for (int k = 0; k < 4; k++) {
                     tmp[k] = a[currentI][currentJ];
                     int[] newCoordinates = rotateSub(currentI, currentJ, n);
-                    currentI = newCoordinates[0]; currentJ = newCoordinates[1];
+                    currentI = newCoordinates[0];
+                    currentJ = newCoordinates[1];
                 }
                 for (int k = 0; k < 4; k++) {
                     a[currentI][currentJ] = tmp[(k + 3) % 4];

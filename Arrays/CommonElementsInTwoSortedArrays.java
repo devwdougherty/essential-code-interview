@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class CE {
+public class CommonElementsInTwoSortedArrays {
     public static void main(String[] args) {
         // NOTE: The following input values are used for testing your solution.
 

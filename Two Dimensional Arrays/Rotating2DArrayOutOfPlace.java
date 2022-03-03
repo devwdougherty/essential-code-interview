@@ -1,4 +1,4 @@
-public class R2 {
+public class Rotating2DArrayOutOfPlace {
     public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.
         int a1[][] = {{1, 2, 3},
