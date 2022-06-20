@@ -1,3 +1,5 @@
+package twodimensionalarraystraining;
+
 public class Minesweeper {
     public static void main(String[] args) {
         // NOTE: The following input values will be used for testing your solution.

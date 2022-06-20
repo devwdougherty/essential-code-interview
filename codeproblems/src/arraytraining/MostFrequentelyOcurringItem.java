@@ -1,3 +1,5 @@
+package arraytraining;
+
 import java.util.HashMap;
 
 public class MostFrequentelyOcurringItem {

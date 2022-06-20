@@ -1,6 +1,4 @@
-import javax.swing.tree.TreeNode;
-import java.util.HashMap;
-import java.util.Stack;
+package linkedlistandtresstraining;
 
 public class BinarySearchTree {
     /*public static void main(String[] args) {

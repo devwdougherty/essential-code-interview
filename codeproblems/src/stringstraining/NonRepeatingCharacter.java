@@ -1,3 +1,5 @@
+package stringstraining;
+
 import java.util.HashMap;
 
 public class NonRepeatingCharacter {

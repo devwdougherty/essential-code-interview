@@ -1,3 +1,5 @@
+package twodimensionalarraystraining;
+
 import java.util.ArrayDeque;
 
 public class ExpandMinesweeper {

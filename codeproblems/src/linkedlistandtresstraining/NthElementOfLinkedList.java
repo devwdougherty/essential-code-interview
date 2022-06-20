@@ -1,4 +1,4 @@
-import javax.xml.soap.Node;
+package linkedlistandtresstraining;
 
 public class NthElementOfLinkedList {
     /*public static void main(String[] args) {
